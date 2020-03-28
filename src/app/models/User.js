@@ -1,6 +1,7 @@
 import Sequelize, { Model } from 'sequelize';
 
 class User extends Model {
+  // conexao do banco
   static init(sequelize) {
     super.init(
       {
